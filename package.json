@@ -1,0 +1,36 @@
+{
+  "name": "middleware-responder",
+  "version": "1.0.0",
+  "description": "A node.js middleware for setting render and redirect options.",
+  "main": "lib/middleware-responder.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eddywashere/middleware-responder"
+  },
+  "keywords": [
+    "connect",
+    "express",
+    "middleware",
+    "respond",
+    "view",
+    "redirect",
+    "helper",
+    "render"
+  ],
+  "author": "Eddy Hernandez <edward.d.hernandez@gmail.com> (http://eddywashere.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eddywashere/middleware-responder/issues"
+  },
+  "homepage": "https://github.com/eddywashere/middleware-responder",
+  "devDependencies": {
+    "mocha": "^1.21.5",
+    "should": "^4.0.4"
+  },
+  "dependencies": {
+    "lodash": "^2.4.1"
+  }
+}
